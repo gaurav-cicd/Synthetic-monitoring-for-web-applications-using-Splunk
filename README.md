@@ -2,6 +2,12 @@
 
 This project implements synthetic monitoring for web applications hosted on AWS EC2 using Splunk. It provides real-time monitoring, user activity tracking, and automated notifications via Slack and Email.
 
+## Architecture Diagram
+
+The following diagram illustrates the system architecture and component interactions:
+
+![Synthetic Monitoring for Web Applications using Splunk](docs/images/architecture.png)
+
 ## Features
 
 - Real-time monitoring of web applications
