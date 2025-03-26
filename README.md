@@ -6,7 +6,7 @@ This project implements synthetic monitoring for web applications hosted on AWS 
 
 The following diagram illustrates the system architecture and component interactions:
 
-![Synthetic Monitoring for Web Applications using Splunk](docs/images/architecture.png)
+!(docs/images/architecture.png)
 
 ## Features
 
