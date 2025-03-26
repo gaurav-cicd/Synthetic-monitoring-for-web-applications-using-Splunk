@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.webmonitoring.monitor</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/gauravchoudhary/Downloads/Chrome%20Downloads/My%20Labs/Cursor%20AI%20Projects/Synthetic%20Monitoring%20for%20Web%20Applications%20using%20Splunk/scripts/monitor.py</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>300</integer>
+    <key>StandardErrorPath</key>
+    <string>/var/log/web_monitoring/monitor.err</string>
+    <key>StandardOutPath</key>
+    <string>/var/log/web_monitoring/monitor.out</string>
+    <key>WorkingDirectory</key>
+    <string>/Users/gauravchoudhary/Downloads/Chrome%20Downloads/My%20Labs/Cursor%20AI%20Projects/Synthetic%20Monitoring%20for%20Web%20Applications%20using%20Splunk</string>
+</dict>
+</plist> 

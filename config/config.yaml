@@ -1,0 +1,35 @@
+aws:
+  region: us-east-1  # Update with your AWS region
+  instances:
+    - i-0123456789abcdef0  # Update with your EC2 instance IDs
+    - i-0123456789abcdef1
+
+splunk:
+  host: localhost  # Update with your Splunk host
+  port: 8089
+  username: admin
+  password: changeme  # Update with your Splunk password
+  index: web_monitoring
+
+slack:
+  webhook_url: https://hooks.slack.com/services/YOUR/WEBHOOK/URL  # Update with your Slack webhook URL
+  channel: "#monitoring"
+
+email:
+  smtp_server: smtp.gmail.com  # Update with your SMTP server
+  smtp_port: 587
+  username: your-email@example.com  # Update with your email
+  password: your-app-password  # Update with your email app password
+  recipients:
+    - admin@example.com
+
+monitoring:
+  check_interval: 300  # 5 minutes
+  timeout: 30  # seconds
+  retry_count: 3
+  health_check_endpoints:
+    - /health
+    - /api/status
+  user_tracking:
+    enabled: true
+    session_timeout: 1800  # 30 minutes 
